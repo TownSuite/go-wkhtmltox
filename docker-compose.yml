@@ -1,5 +1,5 @@
 server:
-    image: idocking/go-wkhtmltox:latest
+    image: townsuite/go-wkhtmltox:latest
     command: ["./go-wkhtmltox", "run"]
     ports:
       - 8080:8080
