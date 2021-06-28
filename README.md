@@ -6,8 +6,9 @@ go-wkhtmltox
 ## Run at local
 
 ```bash
-> go get github.com/gogap/go-wkhtmltox
-> cd $GOPATH/src/github.com/gogap/go-wkhtmltox
+> go get github.com/TownSuite/go-wkhtmltox
+> git clone git@github.com:TownSuite/go-wkhtmltox.git
+> cd go-wkhtmltox
 > go build
 > ./go-wkhtmltox run -c app.conf
 ```
