@@ -47,4 +47,4 @@ COPY --from=tox_build /app .
 
 VOLUME /app/templates
 
-CMD ["./go-wkhtmltox"]
+CMD ["./go-wkhtmltox", "run"]
